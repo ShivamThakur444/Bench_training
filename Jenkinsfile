@@ -9,7 +9,13 @@ pipeline {
         }
          stage('Stage2') {
             steps {
-                echo 'Hello World'
+                class Test
+{
+    public static void main(String []args)
+    {
+        System.out.println("My First Java Program.");
+    }
+};
             }
         }
          stage('Stage3') {
